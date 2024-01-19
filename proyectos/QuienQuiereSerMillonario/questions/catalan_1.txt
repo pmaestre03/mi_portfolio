@@ -1,0 +1,70 @@
+* Què va fer Gandhi pel món?
+- Res
++ Pau
+- Revolució
+- El racisme
+# imagesGame/ghandi.png
+
+* D'on és Gandhi?
+- El Marroc
+- Anglaterra
++ Índia
+- Perú
+
+* Ghandi va morir per un...
+- Accident
+- Atac de cor
+- Malaltia
++ Assassinat
+
+* On del món es va crear el futbol?
+- Xina
+- Mèxic
+- Brasil
++ Anglaterra
+
+* A on es troba el Big Ben?
+- París
++ Londres
+- Andorra
+- Alemanya
+# imagesGame/big_ben.jpg
+
+* A on es localitza el palau de Buckingham?
+- França
++ Anglaterra
+- Itàlia
+- Sudàfrica.
+# imagesGame/buckingham_palace.jpg
+
+* "Oh Romeu, Romeu! Per què ets Romeu? Nega el teu pare i rebutja el teu nom; o, si et podrís, et juro amor meu i ja no seré una Capulet." Qui va escriure això?
++ Shakespeare
+- Zorrilla
+- Quevedo
+- Cervantes
+
+* Més població?
++ Índia
+- Bangla Desh
+- Austràlia
+- Anglaterra
+# imagesGame/More_Population.jpeg
+
+* Quin país consumeix més te anualment? 
+- Portugal 
++ El Regne Unit 
+- Espanya 
+- França
+# imagesGame/more_tea.webp
+
+* Com és la bandera del Regne Unit?
+- Rosa, blau i vermell
++ Blau Blanc I Vermell
+- Blau, Negre, Vermell
+- Groc Vermell Blau
+
+* qui es el tutor d'aws2?
++ Leandro
+- Xavi
+- Enric
+- Albert

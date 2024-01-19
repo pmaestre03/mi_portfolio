@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Al menos 100% de la altura de la ventana de visualización */
+    text-align: justify;
+}
+
+.container {
+    flex: 1; /* Esto hará que el contenedor ocupe el espacio restante vertical */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    top: 0;
+    z-index: 1000;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    max-width: 100px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.about,
+.knowledge,
+.experience,
+.personal-projects {
+    margin: 20px 0;
+}
+
+h2 {
+    color: #3498db;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: auto;
+}
+
+body a {
+    color: #3498db; /* Color predeterminado para los enlaces */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+body a:hover {
+    color: #e74c3c; /* Cambio de color al pasar el ratón sobre el enlace */
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #333;
+        color: #fff;
+    }
+
+    header {
+        background-color: #444;
+    }
+
+    footer {
+        background-color: #444;
+    }
+
+}
