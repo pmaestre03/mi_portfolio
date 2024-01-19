@@ -84,17 +84,11 @@ En mi tiempo libre, me gusta sumergirme en el mundo de los videojuegos para desc
 
         <section class="projects" id="projects">
             <h2>Proyectos</h2>
-            <!-- Detalles sobre tus proyectos personales -->
             <div class="project">
                 <h3>Quien quiere ser millonario</h3>
                 <p>El proyecto consiste en desarrollar una aplicación web inspirada en el programa de televisión "¿Quién Quiere Ser Millonario?" Los usuarios podrán participar en preguntas de opción múltiple con niveles de dificultad creciente. Acertar preguntas les permitirá acumular puntos y avanzar hacia premios más altos. Se incluirán funciones de ayuda, como el comodín del público y el teléfono amigo. La aplicación proporcionará una experiencia interactiva, emocionante y educativa para los usuarios.</p>
-                <a href="./proyectos/QuienQuiereSerMillonario/"></a>
+                <a href="./proyectos/QuienQuiereSerMillonario/">QuienQuiereSerMillonario</a>
             </div>
-            <div class="project">
-                <h3>Proyecto Personal 2</h3>
-                <p>Descripción del proyecto personal 2...</p>
-            </div>
-            <!-- Puedes agregar más proyectos personales según sea necesario -->
         </section>
 
         <section class="contact" id="contact">
