@@ -263,6 +263,15 @@ header, footer {
     }
 }
 
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 30px;
+    }
+    header a {
+        font-size: 15px;
+    }
+}
+
 /* Ocultar elementos y títulos por defecto */
 .about-content, .job, .details, .project, .contact, h2, #contact, #knowledge {
     opacity: 0;
