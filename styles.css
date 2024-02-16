@@ -11,11 +11,22 @@ body {
     background-color: #f7f7f7;
     color: #333;
 }
+ul {
+    margin-left: 20px;
+}
+details ul {
+    margin-left: 40px;
 
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+header, footer {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 header {
@@ -48,7 +59,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #ffd700; /* Color de texto al pasar el ratón */
+    color: #ffd700;
 }
 
 main {
@@ -56,10 +67,36 @@ main {
 }
 
 section {
-    margin-bottom: 40px; /* Espacio entre las secciones */
+    margin-bottom: 40px;
 }
 
-.about-content {
+.about-content, .job, .details, .project, .contact, h2, #contact, #knowledge {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.about-content.show, .job.show, .details.show, .project.show, .contact.show, h2.show, #contact.show, #knowledge.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+h2, .job h3, .project h3, .details summary, .contact ul li a {
+    color: #333;
+}
+
+.job h3, .project h3 {
+    color: #3498db;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.details summary {
+    color: #3498db;
+    cursor: pointer;
+}
+
+.project p, .about-content {
     text-align: justify;
 }
 
@@ -70,80 +107,24 @@ section {
     max-width: 200px;
 }
 
-h2 {
-    color: #333;
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-.job h3 {
-    color: #3498db;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.job ul {
-    margin-left: 20px;
-}
-
-.details {
-    margin-bottom: 20px;
-}
-
-.details summary {
-    color: #3498db;
-    cursor: pointer;
-}
-
-.details ul {
-    margin-left: 20px;
-}
-
-.project {
-    margin-bottom: 20px;
-}
-
-.project h3 {
-    color: #3498db;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.project p {
-    text-align: justify;
-}
-
-a {
+a, .project a, .contact ul li a {
     color: #3498db;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-a:hover {
+a:hover, .project a:hover, .contact ul li a:hover {
     color: #e74c3c;
 }
 
-ul {
-    padding-left: 20px;
-}
-.contact ul {
-    list-style-type: none; 
+.contact ul, .contact ul li {
+    list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
 .contact ul li {
     margin-bottom: 10px;
-}
-
-.contact ul li a {
-    color: #3498db;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.contact ul li a:hover {
-    color: #e74c3c;
 }
 
 footer {
@@ -157,131 +138,47 @@ footer {
 footer p {
     font-size: 14px;
 }
-header, footer {
-    max-width: 1200px;
-    margin: 0 auto;
-}
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #333;
         color: #fff;
     }
+
+    h2, .job h3, .project h3 {
+        color: #fff;
+    }
+}
+
+@media print {
+    header, footer {
+        display: none;
+    }
     
-    .about-content {
-        text-align: justify;
+    body {
+        background-color: #fff; 
+        color: #000; 
+        margin: 0; 
+        padding: 20px; 
+    }
+    
+    .container {
+        max-width: none;
+        margin: 0; 
+        padding: 0; 
+    }
+    
+    section {
+        margin-bottom: 20px;
     }
     
     .about-content img {
-        display: block;
-        margin: 20px auto;
-        border-radius: 50%;
-        max-width: 200px;
+        height: auto; 
+        margin: 10px auto;
     }
-    
-    h2 {
-        color: #fff;
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-    
-    .job h3 {
-        color: #3498db;
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
-    
-    .job ul {
-        margin-left: 20px;
-    }
-    
-    .details {
-        margin-bottom: 20px;
-    }
-    
-    .details summary {
-        color: #3498db;
-        cursor: pointer;
-    }
-    
-    .details ul {
-        margin-left: 20px;
-    }
-    
-    .project {
-        margin-bottom: 20px;
-    }
-    
-    .project h3 {
-        color: #3498db;
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
-    
-    .project p {
-        text-align: justify;
-    }
-    
-    .project a {
-        display: inline-block;
-        color: #3498db;
-        text-decoration: none;
-        font-weight: bold;
-        transition: color 0.3s ease;
-        margin-top: 10px;
-    }
-    
-    .project a:hover {
-        color: #e74c3c;
-    }
-    
-    .contact ul {
-        list-style-type: none;
-    }
-    
-    .contact ul li {
-        margin-bottom: 10px;
-    }
-    
-    .contact ul li a {
-        color: #3498db;
-        text-decoration: none;
-        transition: color 0.3s ease;
-    }
-    
-    .contact ul li a:hover {
-        color: #e74c3c;
-    }
-    
-    footer {
-        color: #fff;
-        text-align: center;
-        padding: 20px 0;
-    }
-    
-    footer p {
-        font-size: 14px;
+
+    .smx {
+        margin-top: 100px;
+        padding-top: 20px;
     }
 }
-
-@media screen and (max-width: 768px) {
-    header h1 {
-        font-size: 30px;
-    }
-    header a {
-        font-size: 15px;
-    }
-}
-
-/* Ocultar elementos y títulos por defecto */
-.about-content, .job, .details, .project, .contact, h2, #contact, #knowledge {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
-  }
-  
-  /* Mostrar elementos y títulos cuando están en el área visible */
-  .about-content.show, .job.show, .details.show, .project.show, .contact.show, h2.show, #contact.show, #knowledge.show {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  

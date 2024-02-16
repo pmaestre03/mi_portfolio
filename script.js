@@ -8,4 +8,10 @@ const observer = new IntersectionObserver(entries => {
   
   observer.observe(document.querySelector('#contact'));
   observer.observe(document.querySelector('#knowledge'));
-  
+
+window.addEventListener("beforeprint", (event) => {
+  document.querySelectorAll('details').forEach((detail) => {detail.open = true});
+  document.querySelectorAll('.about-content, .job, .details, .project, #contact, h2').forEach(element => {
+    element.classList.add('show');
+});
+});
