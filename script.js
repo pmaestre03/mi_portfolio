@@ -2,7 +2,7 @@ const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => entry.target.classList.toggle('show', entry.isIntersecting));
   }, { threshold: 0.2 });
   
-  document.querySelectorAll('.about-content, .job, .details, .project, .contact').forEach(element => observer.observe(element));
+  document.querySelectorAll('.about-content, .job, .details, .project, .jellyfin, .contact').forEach(element => observer.observe(element));
   
   document.querySelectorAll('h2').forEach(title => observer.observe(title));
   
@@ -11,7 +11,7 @@ const observer = new IntersectionObserver(entries => {
 
 window.addEventListener("beforeprint", (event) => {
   document.querySelectorAll('details').forEach((detail) => {detail.open = true});
-  document.querySelectorAll('.about-content, .job, .details, .project, #contact, h2').forEach(element => {
+  document.querySelectorAll('.about-content, .job, .details, .project, #jellyfin, #contact, h2').forEach(element => {
     element.classList.add('show');
 });
 });
