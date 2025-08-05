@@ -154,6 +154,13 @@ footer p {
     box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
 /* Responsive para móviles */
 @media screen and (max-width: 768px) {
     .projects-grid {
