@@ -1,147 +1,134 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <link rel="shortcut icon" type="image/jpg" href="./utilidades/favicon.ico"/>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pau Maestre Fernandez - Desarrollador Web">
-    <meta name="keywords" content="desarrollador web, programador, proyectos web">
-    <meta name="author" content="Pau Maestre Fernandez">
-    <link rel="stylesheet" href="styles.css">
-    <title>Pau Maestre Fernandez - Desarrollador Web</title>
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Pau Maestre Fernandez - Desarrollador Web">
+  <meta name="keywords" content="desarrollador web, programador, proyectos web">
+  <meta name="author" content="Pau Maestre Fernandez">
+  <link rel="shortcut icon" type="image/jpg" href="./utilidades/favicon.ico"/>
+  <title>Pau Maestre - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script> 
 </head>
-<header>
-    <div class="container">
-        <h1>Pau Maestre Fernandez</h1>
-        <p>Desarrollador Web Junior | Apasionado por Star Wars y la programación</p><br>
-        <nav>
-            <ul>
-                <li><a href="#about">Sobre Mí</a></li>
-                <li><a href="#experience">Experiencia Laboral</a></li>
-                <li><a href="#knowledge">Conocimientos</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
-<body>    
-    <main>
-        <section id="about">
-            <div class="container">
-                <h2>Sobre Mí</h2>
-                <div class="about-content">
-                    <p>Hola a todos, me llamo Pau Maestre Fernandez y soy un chico de 20 años que actualmente está estudiando desarrollo de aplicaciones web en el segundo curso del grado superior.</p>
-                    <p>Además de mis estudios, trabajo como celador en el Hospital Universitario de Bellvitge, donde contribuyo al funcionamiento del hospital y al bienestar de los pacientes.</p>
-                    <p>En mi tiempo libre, me gusta sumergirme en el mundo de los videojuegos para desconectar y disfrutar de nuevas experiencias. También soy un aficionado a las series y películas; de hecho, mi saga favorita es Star Wars. La epopeya galáctica y sus personajes icónicos realmente han dejado una marca en mi corazón cinéfilo. Estoy emocionado por seguir creciendo tanto en el desarrollo de aplicaciones web como en mis pasiones personales. ¡Nos vemos!</p>
-                    <img src="./utilidades/pau.jpg" alt="mi foto" class="profile-photo">
-                </div>
-            </div>
-        </section>
-        
-        <section id="experience">
-            <div class="container">
-                <h2>Experiencia Laboral</h2>
-                <div class="job">
-                    <h3>Celador - Hospital Universitario de Bellvitge</h3>
-                    <p>Como celador en el Hospital Universitario de Bellvitge, desempeño un papel crucial en la atención al paciente y el funcionamiento eficiente del hospital. Mis responsabilidades incluyen:</p>
-                    <ul>
-                        <li>Transporte de pacientes a diferentes áreas del hospital.</li>
-                        <li>Colaboración con el personal médico y de enfermería para garantizar un entorno seguro y cómodo para los pacientes.</li>
-                        <li>Guiar a visitantes y pacientes a sus destinos dentro del hospital.</li>
-                        <li>Asistir en la distribución de suministros médicos y equipo a las diferentes áreas del hospital.</li>
-                        <li>Colaborar en la gestión del flujo de pacientes en la sala de emergencias.</li>
-                        <li>Responder rápidamente a situaciones de emergencia y brindar asistencia según sea necesario.</li>
-                        <li>Participar en la formación de nuevos celadores y personal hospitalario.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        
-        <section id="knowledge">
-            <div class="container">
-                <h2>Conocimientos</h2>
-                <details open class="daw">
-                    <summary>Conocimientos Adquiridos en el Grado Superior de Desarrollo de Aplicaciones Web</summary>
-                    <ul>
-                        <li>Desarrollo Front-end y Back-end</li>
-                        <li>Lenguajes de Programación: HTML, CSS, JavaScript, PHP, etc.</li>
-                        <li>Gestión de Bases de Datos con SQL</li>
-                        <li>Diseño Responsivo y Experiencia de Usuario (UX)</li>
-                        <li>Seguridad en Desarrollo Web</li>
-                        <li>Desarrollo de Aplicaciones Móviles</li>
-                        <li>Pruebas y Depuración de Software</li>
-                        <li>Control de Versiones con Git</li>
-                        <li>Despliegue y Administración de Aplicaciones en Servidores</li>
-                    </ul>
-                </details>
-                <br>
-                <details open class="smx">
-                    <summary>Conocimientos Adquiridos en el Grado Medio de Sistemas Microinformáticos y Redes</summary>
-                    <ul>
-                        <li>Instalación y Mantenimiento de Sistemas Operativos</li>
-                        <li>Montaje y Reparación de Equipos Microinformáticos</li>
-                        <li>Redes Locales: Configuración y Mantenimiento</li>
-                        <li>Servidores: Configuración y Administración</li>
-                        <li>Seguridad Informática y Protección de Datos</li>
-                        <li>Configuración y Mantenimiento de Periféricos</li>
-                        <li>Soporte Técnico a Usuarios</li>
-                        <li>Programación de Scripts y Automatización de Tareas</li>
-                        <li>Gestión de Recursos en Redes</li>
-                        <li>Virtualización de Sistemas</li>
-                    </ul>
-                </details>
-            </div>
-        </section>
-        
-        <section id="projects">
-            <div class="container">
-                <h2>Proyectos</h2><br>
-                <div class="projects-grid">
-                <div class="project">
-                    <h3>Quien quiere ser millonario</h3>
-                    <p>El proyecto consiste en desarrollar una aplicación web inspirada en el programa de televisión "¿Quién Quiere Ser Millonario?"...</p>
-                    <a href="https://github.com/DiegoParesL/ScrumQuienQuiereSerMillonario/releases/tag/Sprint_3" target="_blank">Ver proyecto en Github</a>
-                </div>
+<body>
 
-                <div class="project">
-                    <h3>Aplicacion de votaciones</h3>
-                    <p>El proyecto consiste en desarrollar una aplicación web centrada en la creación y distribución de encuestas interactivas...</p>
-                    <a href="https://github.com/pmaestre03/Votaciones/releases/tag/sprint3" target="_blank">Ver proyecto en Github</a>
-                </div>
+  <header>
+    <h1>Pau Maestre Fernandez</h1>
+    <p>Apasionado por la programación y el desarrollo web | Programador por hobby</p>
+    <nav>
+      <ul>
+        <li><a href="#sobremi">Sobre mí</a></li>
+        <li><a href="#estudios">Estudios</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#conocimientos">Conocimientos</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-                <div class="project">
-                    <h3>MediaMaster</h3>
-                    <p>El proyecto consiste en una aplicación web para la gestión de listas de contenidos multimedia, películas, series y videojuegos.</p>
-                    <a href="https://mediamaster.pmaestrefernandez.com" target="_blank">Ver proyecto en vivo
-                        <img src="utilidades/mediamaster-screenshot.png" alt="">
-                    </a>
-                </div>
-                <!-- Añade aquí más proyectos si quieres llenar el 2x2 -->
-                </div>
-            </div>
-        </section>
-
-
-        <section id="contact">
-            <div class="container">
-                <h2>Contacto</h2>
-                <p>Puedes contactarme de las siguientes maneras:</p>
-                <ul>
-                    <li>Email: <a href="mailto:maestrep15@gmail.com">maestrep15@gmail.com</a></li>
-                    <li>GitHub: <a href="https://github.com/pmaestre03" target="_blank">pmaestre03</a></li>
-                    <li>LinkedIn: <a href="https://www.linkedin.com/in/pau-maestre-fernandez" target="_blank">Pau Maestre Fernandez</a></li>
-                    <li>Curriculum: <a download="curriculum" href="./utilidades/curriculum.pdf">Curriculum Vitae</a></li>
-                </ul>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Pau Maestre Fernandez - Desarrollador Web</p>
+  <main>
+    <section id="sobremi">
+    <h2>Sobre mí</h2>
+    <div class="sobremi-container">
+        <img src="./utilidades/pau.jpg" alt="Foto de Pau Maestre" class="profile-photo" />
+        <div class="sobremi-texto">
+        <p>Soy Pau Maestre Fernandez, técnico en desarrollo de aplicaciones web. Actualmente estudio el segundo curso del grado superior de DAW y trabajo como celador en el Hospital Universitario de Bellvitge. Me apasiona crear soluciones digitales funcionales, limpias y centradas en el usuario.</p>
+        <p>En mi tiempo libre disfruto de los videojuegos, las series y el cine. Mi saga favorita es <strong>Star Wars</strong>, la cual me inspira con su universo épico y personajes memorables. Busco seguir creciendo profesionalmente en el mundo del desarrollo web.</p>
         </div>
-    </footer>
+    </div>
+    </section>
+    <section id="estudios">
+      <h2>Estudios 📖</h2>
+      <ul>
+        <!-- <li><strong>Grado Superior en Imagen para el Diagnóstico y Medicina Nuclear</strong> – Institut Ramon y Cajal (2025 - Actualmente)</li> -->
+        <li><strong>Grado Superior en Desarrollo de Aplicaciones Web</strong> – Institut Esteve Terradas i Illa (2021 - 2024)</li>
+        <li><strong>Grado Medio en Sistemas Microinformáticos y Redes</strong> – Institut Esteve Terradas i Illa (2019 - 2021)</li>
+      </ul>
+    </section>
+
+    <section id="experiencia">
+      <h2>Experiencia Laboral 👔</h2>
+      <div class="job">
+        <h3>Celador - Hospital Universitario de Bellvitge</h3>
+        <p>Como celador, mis responsabilidades incluyen:</p>
+        <ul>
+          <li>Transporte de pacientes por diferentes áreas del hospital.</li>
+          <li>Asistencia al personal médico y de enfermería.</li>
+          <li>Apoyo logístico en urgencias y quirófano.</li>
+          <li>Distribución de material médico y orientación de pacientes.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="conocimientos">
+      <h2>Conocimientos 💻</h2>
+      <details open>
+        <summary><strong>Grado Superior en DAW</strong></summary>
+        <ul>
+          <li>Front-end & Back-end Development</li>
+          <li>HTML, CSS, JavaScript, PHP</li>
+          <li>Base de datos: MySQL, SQL</li>
+          <li>Diseño responsive y UX/UI</li>
+          <li>Seguridad Web, pruebas y depuración</li>
+          <li>Git y control de versiones</li>
+          <li>Despliegue en servidores</li>
+        </ul>
+      </details>
+      <details open>
+        <summary><strong>Grado Medio en SMX</strong></summary>
+        <ul>
+          <li>Instalación de sistemas operativos</li>
+          <li>Montaje y reparación de equipos</li>
+          <li>Redes locales y servidores</li>
+          <li>Seguridad informática</li>
+          <li>Soporte técnico y virtualización</li>
+        </ul>
+      </details>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="proyecto">
+        <h3>🌐 Portafolio Web Personal</h3>
+        <p>Portfolio responsive hecho con HTML y CSS. Diseño limpio y minimalista.</p>
+        <a href="#" target="_blank">Ver proyecto</a>
+      </div>
+      <div class="proyecto">
+        <h3>🎮 ¿Quién quiere ser millonario?</h3>
+        <p>Aplicación basada en el famoso concurso de TV. Desarrollada en grupo con metodología SCRUM.</p>
+        <a href="https://github.com/DiegoParesL/ScrumQuienQuiereSerMillonario/releases/tag/Sprint_3" target="_blank">Ver proyecto en GitHub</a>
+      </div>
+      <div class="proyecto">
+        <h3>📊 Aplicación de votaciones</h3>
+        <p>Herramienta web para crear y compartir encuestas dinámicas y votar en tiempo real.</p>
+        <a href="https://github.com/pmaestre03/Votaciones/releases/tag/sprint3" target="_blank">Ver proyecto en GitHub</a>
+      </div>
+      <div class="proyecto">
+        <h3>🎬 MediaMaster</h3>
+        <img src="utilidades/mediamaster-screenshot.png" alt="MediaMaster proyecto" class="project-img" />
+        <p>App para gestionar listas de películas, series y videojuegos. Proyecto final en grupo.</p>
+        <a href="https://mediamaster.pmaestrefernandez.com" target="_blank">Ver proyecto</a>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>¿Quieres contactar conmigo? Escríbeme:</p>
+      <ul>
+        <li>Email: <a href="mailto:maestrep15@gmail.com">maestrep15@gmail.com</a></li>
+        <li>GitHub: <a href="https://github.com/pmaestre03" target="_blank">@pmaestre03</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/pau-maestre-fernandez" target="_blank">Pau Maestre Fernandez</a></li>
+        <li><a href="./utilidades/curriculum.pdf" download>Descargar CV</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Pau Maestre Fernandez</p>
+  </footer>
 </body>
 </html>
