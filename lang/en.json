@@ -1,0 +1,48 @@
+{
+  "header": { "name": "Pau Maestre Fernandez", "subtitle": "Passionate about programming and web development | Hobbyist Programmer" },
+  "nav": { "about": "About me", "studies": "Studies", "exp": "Experience", "skills": "Skills", "projects": "Projects", "contact": "Contact" },
+  "sections": { "about": "About me", "studies": "Studies 📖", "exp": "Work Experience 👔", "skills": "Skills 💻", "projects": "Projects", "contact": "Contact" },
+  "about": {
+    "p1": "I am Pau Maestre Fernandez, a web application development technician. I am currently studying a higher degree in Diagnostic Imaging and Nuclear Medicine, while on weekends I work as a hospital porter at the Bellvitge University Hospital.",
+    "p2": "In my spare time I enjoy video games, series, and cinema. My favorite saga is <strong>Star Wars</strong>, which inspires me with its epic universe and memorable characters."
+  },
+  "studies": {
+    "item1": "<strong>Higher Degree in Diagnostic Imaging and Nuclear Medicine</strong> – Ramon y Cajal Institute (2025 - Present)",
+    "item2": "<strong>Higher Degree in Web Application Development</strong> – Esteve Terradas i Illa Institute (2021 - 2024)",
+    "item3": "<strong>Intermediate Degree in Microcomputer Systems and Networks</strong> – Esteve Terradas i Illa Institute (2019 - 2021)"
+  },
+  "exp": {
+    "jobTitle": "Hospital Porter - Bellvitge University Hospital",
+    "desc": "As a hospital porter, my responsibilities include:",
+    "item1": "Patient transportation through different hospital areas.",
+    "item2": "Assisting medical and nursing staff.",
+    "item3": "Logistical support in emergency and operating rooms.",
+    "item4": "Medical material distribution and patient guidance."
+  },
+  "skills": {
+    "dawTitle": "Higher Degree in DAW",
+    "responsive": "Responsive Design and UX/UI",
+    "security": "Web Security, testing and debugging",
+    "git": "Git and version control",
+    "deploy": "Server deployment",
+    "smxTitle": "Intermediate Degree in SMX",
+    "os": "Operating systems installation",
+    "repair": "Hardware assembly and repair",
+    "networks": "Local networks and servers",
+    "infosec": "Computer security",
+    "support": "Technical support and virtualization"
+  },
+  "projects": {
+    "p1Title": "🌐 Personal Web Portfolio", 
+    "p1Desc": "Responsive portfolio made with HTML and CSS.",
+    "p2Title": "🎮 Who Wants to Be a Millionaire?", 
+    "p2Desc": "App based on the famous TV show. Developed in a group using SCRUM methodology.",
+    "p3Title": "📊 Voting Application", 
+    "p3Desc": "Web tool to create and share dynamic surveys and vote in real-time.",
+    "p4Title": "🎬 MediaMaster", 
+    "p4Desc": "App to manage movie, series and video game lists. Final group project.",
+    "view": "View project", 
+    "viewGit": "View on GitHub"
+  },
+  "contact": { "text": "Want to get in touch? Write to me:", "cv": "Download CV" }
+}

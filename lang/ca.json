@@ -1,0 +1,48 @@
+{
+  "header": { "name": "Pau Maestre Fernandez", "subtitle": "Apassionat per la programació i el desenvolupament web | Programador per hobby" },
+  "nav": { "about": "Sobre mi", "studies": "Estudis", "exp": "Experiència", "skills": "Coneixements", "projects": "Projectes", "contact": "Contacte" },
+  "sections": { "about": "Sobre mi", "studies": "Estudis 📖", "exp": "Experiència Laboral 👔", "skills": "Coneixements 💻", "projects": "Projectes", "contact": "Contacte" },
+  "about": {
+    "p1": "Sóc en Pau Maestre Fernandez, tècnic en desenvolupament d'aplicacions web. Actualment estic estudiant el grau superior d'Imatge per al Diagnòstic i Medicina Nuclear mentre que els caps de setmana treballo com a zelador a l'Hospital Universitari de Bellvitge.",
+    "p2": "En el meu temps lliure gaudeixo dels videojocs, les sèries i el cinema. La meva saga preferida és <strong>Star Wars</strong>, la qual m'inspira amb el seu univers èpic i personatges memorables."
+  },
+  "studies": {
+    "item1": "<strong>Grau Superior en Imatge per al Diagnòstic i Medicina Nuclear</strong> – Institut Ramon y Cajal (2025 - Actualment)",
+    "item2": "<strong>Grau Superior en Desenvolupament d'Aplicacions Web</strong> – Institut Esteve Terradas i Illa (2021 - 2024)",
+    "item3": "<strong>Grau Mitjà en Sistemes Microinformàtics i Xarxes</strong> – Institut Esteve Terradas i Illa (2019 - 2021)"
+  },
+  "exp": {
+    "jobTitle": "Zelador - Hospital Universitari de Bellvitge",
+    "desc": "Com a zelador, les meves responsabilitats inclouen:",
+    "item1": "Transport de pacients per diferents àrees de l'hospital.",
+    "item2": "Assistència al personal mèdic i d'infermeria.",
+    "item3": "Suport logístic a urgències i quiròfan.",
+    "item4": "Distribució de material mèdic i orientació de pacients."
+  },
+  "skills": {
+    "dawTitle": "Grau Superior en DAW",
+    "responsive": "Disseny responsive i UX/UI",
+    "security": "Seguretat Web, proves i depuració",
+    "git": "Git y control de versions",
+    "deploy": "Desplegament en servidors",
+    "smxTitle": "Grau Mitjà en SMX",
+    "os": "Instal·lació de sistemes operatius",
+    "repair": "Muntatge i reparació d'equips",
+    "networks": "Xarxes locals i servidors",
+    "infosec": "Seguretat informàtica",
+    "support": "Suport tècnic i virtualització"
+  },
+  "projects": {
+    "p1Title": "🌐 Portafoli Web Personal", 
+    "p1Desc": "Portafoli responsive fet amb HTML i CSS.",
+    "p2Title": "🎮 Qui vol ser milionari?", 
+    "p2Desc": "Aplicació basada en el famós concurs de TV. Desenvolupada en grup amb metodologia SCRUM.",
+    "p3Title": "📊 Aplicació de votacions", 
+    "p3Desc": "Eina web per crear i compartir enquestes dinàmiques i votar en temps real.",
+    "p4Title": "🎬 MediaMaster", 
+    "p4Desc": "App per gestionar llistes de pel·lícules, sèries i videojocs. Projecte final en grup.",
+    "view": "Veure projecte", 
+    "viewGit": "Veure projecte a GitHub"
+  },
+  "contact": { "text": "Vols contactar amb mi? Escriu-me:", "cv": "Descarregar CV" }
+}

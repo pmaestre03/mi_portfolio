@@ -16,119 +16,132 @@
 <body>
 
   <header>
-    <h1>Pau Maestre Fernandez</h1>
-    <p>Apasionado por la programación y el desarrollo web | Programador por hobby</p>
+    <h1 data-key="header.name">Pau Maestre Fernandez</h1>
+    <p data-key="header.subtitle">Apasionado por la programación y el desarrollo web | Programador por hobby</p>
     <nav>
       <ul>
-        <li><a href="#sobremi">Sobre mí</a></li>
-        <li><a href="#estudios">Estudios</a></li>
-        <li><a href="#experiencia">Experiencia</a></li>
-        <li><a href="#conocimientos">Conocimientos</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#sobremi" data-key="nav.about">Sobre mí</a></li>
+        <li><a href="#estudios" data-key="nav.studies">Estudios</a></li>
+        <li><a href="#experiencia" data-key="nav.exp">Experiencia</a></li>
+        <li><a href="#conocimientos" data-key="nav.skills">Conocimientos</a></li>
+        <li><a href="#proyectos" data-key="nav.projects">Proyectos</a></li>
+        <li><a href="#contacto" data-key="nav.contact">Contacto</a></li>
+        <li class="lang-item">
+          <div class="lang-buttons">
+            <button onclick="changeLanguage('es')" title="Español">
+              <img src="https://flagcdn.com/w20/es.png" alt="ES">
+            </button>
+            <button onclick="changeLanguage('ca')" title="Català">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Catalonia.svg/32px-Flag_of_Catalonia.svg.png" alt="CA">            </button>
+            <button onclick="changeLanguage('en')" title="English">
+              <img src="https://flagcdn.com/w20/gb.png" alt="EN">
+            </button>
+          </div>
+        </li>
       </ul>
     </nav>
   </header>
 
   <main>
     <section id="sobremi">
-    <h2>Sobre mí</h2>
-    <div class="sobremi-container">
-        <img src="./utilidades/pau.jpg" alt="Foto de Pau Maestre" class="profile-photo" />
-        <div class="sobremi-texto">
-        <p>Soy Pau Maestre Fernandez, técnico en desarrollo de aplicaciones web. Actualmente estudio el segundo curso del grado superior de DAW y trabajo como celador en el Hospital Universitario de Bellvitge. Me apasiona crear soluciones digitales funcionales, limpias y centradas en el usuario.</p>
-        <p>En mi tiempo libre disfruto de los videojuegos, las series y el cine. Mi saga favorita es <strong>Star Wars</strong>, la cual me inspira con su universo épico y personajes memorables. Busco seguir creciendo profesionalmente en el mundo del desarrollo web.</p>
-        </div>
-    </div>
+      <h2 data-key="sections.about">Sobre mí</h2>
+      <div class="sobremi-container">
+          <div class="sobremi-texto">
+            <p data-key="about.p1">Soy Pau Maestre Fernandez, técnico en desarrollo de aplicaciones web. Actualmente estoy estudiando el grado superior de Imagen para el Diagnóstico y Medicina Nuclear mientras que los fines de semana trabajo como celador en el Hospital Universitario de Bellvitge.</p>
+            <p data-key="about.p2">En mi tiempo libre disfruto de los videojuegos, las series y el cine. Mi saga favorita es <strong>Star Wars</strong>, la cual me inspira con su universo épico y personajes memorables.</p>
+          </div>
+      </div>
     </section>
+
     <section id="estudios">
-      <h2>Estudios 📖</h2>
+      <h2 data-key="sections.studies">Estudios 📖</h2>
       <ul>
-        <!-- <li><strong>Grado Superior en Imagen para el Diagnóstico y Medicina Nuclear</strong> – Institut Ramon y Cajal (2025 - Actualmente)</li> -->
-        <li><strong>Grado Superior en Desarrollo de Aplicaciones Web</strong> – Institut Esteve Terradas i Illa (2021 - 2024)</li>
-        <li><strong>Grado Medio en Sistemas Microinformáticos y Redes</strong> – Institut Esteve Terradas i Illa (2019 - 2021)</li>
+        <li data-key="studies.item1"><strong>Grado Superior en Imagen para el Diagnóstico y Medicina Nuclear</strong> – Institut Ramon y Cajal (2025 - Actualmente)</li>
+        <li data-key="studies.item2"><strong>Grado Superior en Desarrollo de Aplicaciones Web</strong> – Institut Esteve Terradas i Illa (2021 - 2024)</li>
+        <li data-key="studies.item3"><strong>Grado Medio en Sistemas Microinformáticos y Redes</strong> – Institut Esteve Terradas i Illa (2019 - 2021)</li>
       </ul>
     </section>
 
     <section id="experiencia">
-      <h2>Experiencia Laboral 👔</h2>
+      <h2 data-key="sections.exp">Experiencia Laboral 👔</h2>
       <div class="job">
-        <h3>Celador - Hospital Universitario de Bellvitge</h3>
-        <p>Como celador, mis responsabilidades incluyen:</p>
+        <h3 data-key="exp.jobTitle">Celador - Hospital Universitario de Bellvitge</h3>
+        <p data-key="exp.desc">Como celador, mis responsabilidades incluyen:</p>
         <ul>
-          <li>Transporte de pacientes por diferentes áreas del hospital.</li>
-          <li>Asistencia al personal médico y de enfermería.</li>
-          <li>Apoyo logístico en urgencias y quirófano.</li>
-          <li>Distribución de material médico y orientación de pacientes.</li>
+          <li data-key="exp.item1">Transporte de pacientes por diferentes áreas del hospital.</li>
+          <li data-key="exp.item2">Asistencia al personal médico y de enfermería.</li>
+          <li data-key="exp.item3">Apoyo logístico en urgencias y quirófano.</li>
+          <li data-key="exp.item4">Distribución de material médico y orientación de pacientes.</li>
         </ul>
       </div>
     </section>
 
     <section id="conocimientos">
-      <h2>Conocimientos 💻</h2>
+      <h2 data-key="sections.skills">Conocimientos 💻</h2>
       <details open>
-        <summary><strong>Grado Superior en DAW</strong></summary>
+        <summary><strong data-key="skills.dawTitle">Grado Superior en DAW</strong></summary>
         <ul>
           <li>Front-end & Back-end Development</li>
           <li>HTML, CSS, JavaScript, PHP</li>
           <li>Base de datos: MySQL, SQL</li>
-          <li>Diseño responsive y UX/UI</li>
-          <li>Seguridad Web, pruebas y depuración</li>
-          <li>Git y control de versiones</li>
-          <li>Despliegue en servidores</li>
+          <li data-key="skills.responsive">Diseño responsive y UX/UI</li>
+          <li data-key="skills.security">Seguridad Web, pruebas y depuración</li>
+          <li data-key="skills.git">Git y control de versiones</li>
+          <li data-key="skills.deploy">Despliegue en servidores</li>
         </ul>
       </details>
       <details open>
-        <summary><strong>Grado Medio en SMX</strong></summary>
+        <summary><strong data-key="skills.smxTitle">Grado Medio en SMX</strong></summary>
         <ul>
-          <li>Instalación de sistemas operativos</li>
-          <li>Montaje y reparación de equipos</li>
-          <li>Redes locales y servidores</li>
-          <li>Seguridad informática</li>
-          <li>Soporte técnico y virtualización</li>
+          <li data-key="skills.os">Instalación de sistemas operativos</li>
+          <li data-key="skills.repair">Montaje y reparación de equipos</li>
+          <li data-key="skills.networks">Redes locales y servidores</li>
+          <li data-key="skills.infosec">Seguridad informática</li>
+          <li data-key="skills.support">Soporte técnico y virtualización</li>
         </ul>
       </details>
     </section>
 
     <section id="proyectos">
-      <h2>Proyectos</h2>
+      <h2 data-key="sections.projects">Proyectos</h2>
       <div class="proyecto">
-        <h3>🌐 Portafolio Web Personal</h3>
-        <p>Portfolio responsive hecho con HTML y CSS. Diseño limpio y minimalista.</p>
-        <a href="#" target="_blank">Ver proyecto</a>
+        <h3 data-key="projects.p1Title">🌐 Portafolio Web Personal</h3>
+        <p data-key="projects.p1Desc">Portfolio responsive hecho con HTML y CSS.</p>
+        <a href="#" target="_blank" data-key="projects.view">Ver proyecto</a>
       </div>
       <div class="proyecto">
-        <h3>🎮 ¿Quién quiere ser millonario?</h3>
-        <p>Aplicación basada en el famoso concurso de TV. Desarrollada en grupo con metodología SCRUM.</p>
-        <a href="https://github.com/DiegoParesL/ScrumQuienQuiereSerMillonario/releases/tag/Sprint_3" target="_blank">Ver proyecto en GitHub</a>
+        <h3 data-key="projects.p2Title">🎮 ¿Quién quiere ser millonario?</h3>
+        <p data-key="projects.p2Desc">Aplicación basada en el famoso concurso de TV. Desarrollada en grupo con metodología SCRUM.</p>
+        <a href="https://github.com/DiegoParesL/ScrumQuienQuiereSerMillonario/releases/tag/Sprint_3" target="_blank" data-key="projects.viewGit">Ver proyecto en GitHub</a>
       </div>
       <div class="proyecto">
-        <h3>📊 Aplicación de votaciones</h3>
-        <p>Herramienta web para crear y compartir encuestas dinámicas y votar en tiempo real.</p>
-        <a href="https://github.com/pmaestre03/Votaciones/releases/tag/sprint3" target="_blank">Ver proyecto en GitHub</a>
+        <h3 data-key="projects.p3Title">📊 Aplicación de votaciones</h3>
+        <p data-key="projects.p3Desc">Herramienta web para crear y compartir encuestas dinámicas y votar en tiempo real.</p>
+        <a href="https://github.com/pmaestre03/Votaciones/releases/tag/sprint3" target="_blank" data-key="projects.viewGit">Ver proyecto en GitHub</a>
       </div>
       <div class="proyecto">
-        <h3>🎬 MediaMaster</h3>
+        <h3 data-key="projects.p4Title">🎬 MediaMaster</h3>
         <img src="utilidades/mediamaster-screenshot.png" alt="MediaMaster proyecto" class="project-img" />
-        <p>App para gestionar listas de películas, series y videojuegos. Proyecto final en grupo.</p>
-        <a href="https://mediamaster.pmaestrefernandez.com" target="_blank">Ver proyecto</a>
+        <p data-key="projects.p4Desc">App para gestionar listas de películas, series y videojuegos. Proyecto final en grupo.</p>
+        <a href="https://mediamaster.pmaestrefernandez.com" target="_blank" data-key="projects.view">Ver proyecto</a>
       </div>
     </section>
 
     <section id="contacto">
-      <h2>Contacto</h2>
-      <p>¿Quieres contactar conmigo? Escríbeme:</p>
+      <h2 data-key="sections.contact">Contacto</h2>
+      <p data-key="contact.text">¿Quieres contactar conmigo? Escríbeme:</p>
       <ul>
         <li>Email: <a href="mailto:maestrep15@gmail.com">maestrep15@gmail.com</a></li>
         <li>GitHub: <a href="https://github.com/pmaestre03" target="_blank">@pmaestre03</a></li>
         <li>LinkedIn: <a href="https://www.linkedin.com/in/pau-maestre-fernandez" target="_blank">Pau Maestre Fernandez</a></li>
-        <li><a href="./utilidades/curriculum.pdf" download>Descargar CV</a></li>
+        <li><a href="./utilidades/curriculum.pdf" download data-key="contact.cv">Descargar CV</a></li>
       </ul>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Pau Maestre Fernandez</p>
+    <p>&copy; 2025 <span data-key="header.name">Pau Maestre Fernandez</span></p>
   </footer>
+
 </body>
 </html>

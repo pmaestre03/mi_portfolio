@@ -1,0 +1,68 @@
+{
+  "header": {
+    "name": "Pau Maestre Fernandez",
+    "subtitle": "Apasionado por la programación y el desarrollo web | Programador por hobby"
+  },
+  "nav": {
+    "about": "Sobre mí",
+    "studies": "Estudios",
+    "exp": "Experiencia",
+    "skills": "Conocimientos",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "sections": {
+    "about": "Sobre mí",
+    "studies": "Estudios 📖",
+    "exp": "Experiencia Laboral 👔",
+    "skills": "Conocimientos 💻",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "about": {
+    "p1": "Soy Pau Maestre Fernandez, técnico en desarrollo de aplicaciones web. Actualmente estoy estudiando el grado superior de Imagen para el Diagnóstico y Medicina Nuclear mientras que los fines de semana trabajo como celador en el Hospital Universitario de Bellvitge.",
+    "p2": "En mi tiempo libre disfruto de los videojuegos, las series y el cine. Mi saga favorita es <strong>Star Wars</strong>, la cual me inspira con su universo épico y personajes memorables."
+  },
+  "studies": {
+    "item1": "<strong>Grado Superior en Imagen para el Diagnóstico y Medicina Nuclear</strong> – Institut Ramon y Cajal (2025 - Actualmente)",
+    "item2": "<strong>Grado Superior en Desarrollo de Aplicaciones Web</strong> – Institut Esteve Terradas i Illa (2021 - 2024)",
+    "item3": "<strong>Grado Medio en Sistemas Microinformáticos y Redes</strong> – Institut Esteve Terradas i Illa (2019 - 2021)"
+  },
+  "exp": {
+    "jobTitle": "Celador - Hospital Universitario de Bellvitge",
+    "desc": "Como celador, mis responsabilidades incluyen:",
+    "item1": "Transporte de pacientes por diferentes áreas del hospital.",
+    "item2": "Asistencia al personal médico y de enfermería.",
+    "item3": "Apoyo logístico en urgencias y quirófano.",
+    "item4": "Distribución de material médico y orientación de pacientes."
+  },
+  "skills": {
+    "dawTitle": "Grado Superior en DAW",
+    "responsive": "Diseño responsive y UX/UI",
+    "security": "Seguridad Web, pruebas y depuración",
+    "git": "Git y control de versiones",
+    "deploy": "Despliegue en servidores",
+    "smxTitle": "Grado Medio en SMX",
+    "os": "Instalación de sistemas operativos",
+    "repair": "Montaje y reparación de equipos",
+    "networks": "Redes locales y servidores",
+    "infosec": "Seguridad informática",
+    "support": "Soporte técnico y virtualización"
+  },
+  "projects": {
+    "p1Title": "🌐 Portafolio Web Personal",
+    "p1Desc": "Portfolio responsive hecho con HTML y CSS.",
+    "p2Title": "🎮 ¿Quién quiere ser millonario?",
+    "p2Desc": "Aplicación basada en el famoso concurso de TV. Desarrollada en grupo con metodología SCRUM.",
+    "p3Title": "📊 Aplicación de votaciones",
+    "p3Desc": "Herramienta web para crear y compartir encuestas dinámicas y votar en tiempo real.",
+    "p4Title": "🎬 MediaMaster",
+    "p4Desc": "App para gestionar listas de películas, series y videojuegos. Proyecto final en grupo.",
+    "view": "Ver proyecto",
+    "viewGit": "Ver proyecto en GitHub"
+  },
+  "contact": {
+    "text": "¿Quieres contactar conmigo? Escríbeme:",
+    "cv": "Descargar CV"
+  }
+}
